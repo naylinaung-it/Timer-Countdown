@@ -1,0 +1,2 @@
+module StimulusTestingHelper
+end

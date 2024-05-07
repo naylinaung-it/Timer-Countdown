@@ -11,7 +11,11 @@
   <% end %>
 </div>
 
-<%= link_to "New countdown", new_countdown_path %>
+<%= link_to "New countdown", new_countdown_path %><br><br>
+
+<%= link_to "Greet Testing", greet_testing_path %><br><br>
+
+<%= link_to "Alert Testing", alert_testing_path %>
 
 <script type = "text/javascript">
     history.pushState(null, null, location.href);
@@ -22,3 +26,4 @@
         history.go(1);
     };
 </script>
+
