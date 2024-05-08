@@ -1,3 +1,8 @@
 <h1>Alert Testing</h1>
 
 <%= link_to 'Home', countdowns_path %>
+
+<div data-controller = "welcome">
+    <input type="text" data-welcome-target="yourName">
+    <button data-action = "welcome#alert_testing">Alert Testing</button>
+</div>
